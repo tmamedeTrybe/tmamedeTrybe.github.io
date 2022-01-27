@@ -7,11 +7,12 @@
             body{
                 background-color: #3f3f42;
                 color:white;
+                text-align: center;
             }
             #title{font-size: 3em; color: white;text-align: center;}
             #nome{font-family:Verdana;
                     text-decoration: underline;
-                    text-align: left; 
+                    text-align: center;
                     color:white;
                 }
             .descricao {font-family: Verdana;
@@ -26,7 +27,15 @@
             .resiliencia {font-size: 1.4em;}
             .calma{font-size: 1.5em;}
             .lideranca{font-size: 1.6em;}
-            #foto{ border-radius: 0px 100px 0px 0px; ;}
+            #foto{
+                border-radius: 0px 100px 0px 0px;
+                
+                }
+            ul , h3 {text-align: left;}
+            #button{
+                background-color: rgb(53, 134, 107);
+                }
+            
         </style>
     </head>
     <body>
@@ -51,7 +60,7 @@
             <li class="calma"> Calma</li>
             <li class="lideranca"> Liderança</li>
         </ul>
-        <a href="#foto">Foto de Thiago Mamede</a>
+        <a id="button" href="#foto">Foto de Thiago Mamede</a>
         <ul> Índice do portfolio
             <li> <a href="#nome">Nome completo</a></li>
             <li> <a href="#info">Informações básicas</a></li>
