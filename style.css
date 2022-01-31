@@ -45,7 +45,14 @@ ul , h3 {
     text-align: left;
 }
 #button{
-    background-color: rgb(53, 134, 107);
+    text-align: left;
+    border: 03px solid grey;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 10px;
+}
+#button:hover{
+    background-color: white;;
 }
 #name{
     max-width: 60%;
@@ -62,7 +69,10 @@ ul , h3 {
 #descricao{
     display: inline-block;
     max-width: 45%;
+    padding: 30px;;
     
-    
+}
+#habilidades{
+    margin-top: 60px;
 }
    
