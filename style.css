@@ -1,0 +1,65 @@
+
+body{
+    background-color: #3f3f42;
+    color:white;
+    text-align: center;
+}
+#title{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+#nome{
+    font-family:Verdana;
+    text-decoration: underline;
+    text-align: center;
+    color:white;
+}
+.descricao {
+    font-family: Verdana;
+    color: grey;
+}
+.destaque {
+    color: rgb(53, 134, 107);
+    text-decoration: underline;
+}
+.criatividade{
+    font-size: 1em;
+}
+.bomrelacionamento{
+    font-size: 1.2em;
+}
+.pressao{
+    font-size: 1.3em;
+}
+.resiliencia {
+    font-size: 1.4em;
+}
+.calma{
+    font-size: 1.5em;
+}
+.lideranca{
+    font-size: 1.6em;
+}
+ul , h3 {
+    text-align: left;
+}
+#button{
+    background-color: rgb(53, 134, 107);
+}
+#name{
+    max-width: 60%;
+    margin: auto;
+}
+#foto{
+    display: inline-block;
+    max-width: 45%;
+  
+}
+#descricao{
+    display: inline-block;
+    max-width: 45%;
+    
+    
+}
+   
