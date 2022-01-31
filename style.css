@@ -70,9 +70,11 @@ ul , h3 {
     display: inline-block;
     max-width: 45%;
     padding: 30px;;
-    
 }
 #habilidades{
     margin-top: 60px;
+}
+#lista li:nth-child(2n-1){
+    color: red;
 }
    
